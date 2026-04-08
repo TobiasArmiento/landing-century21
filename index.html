@@ -683,85 +683,251 @@
                 })();
         </script>
         <!-- Testimonials Section -->
-        <section class="mb-32">
-            <div class="flex justify-between items-end mb-16">
-                <h2 class="font-headline text-3xl md:text-5xl font-bold text-white max-w-xl"><b
-                        class="text-[#beaf87]">HISTORIAS DE ÉXITO</b> EN LIBERTY HOME</h2>
-                <div class="hidden md:flex gap-4">
-                    <button
-                        class="p-3 rounded-full border border-primary/30 text-primary hover:bg-primary hover:text-on-primary transition-colors">
+        <section class="mb-32" id="historias">
+            <!-- Intro line -->
+            <p class="text-center text-on-surface-variant/60 text-sm font-medium italic mb-6 tracking-wide">
+                Esto no son testimonios. Son negocios construidos dentro del sistema Liberty Home.
+            </p>
+            <!-- Header -->
+            <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-6 mb-12">
+                <h2 class="font-headline text-3xl md:text-5xl font-bold text-white max-w-xl">
+                    <b class="text-[#beaf87]">HISTORIAS DE ÉXITO</b> EN LIBERTY HOME
+                </h2>
+                <div class="flex gap-4">
+                    <button id="test-prev"
+                        class="p-3 rounded-full border border-primary/30 text-primary hover:bg-primary hover:text-on-primary transition-all duration-300"
+                        aria-label="Anterior">
                         <b class="material-symbols-outlined">chevron_left</b>
                     </button>
-                    <button
-                        class="p-3 rounded-full border border-primary/30 text-primary hover:bg-primary hover:text-on-primary transition-colors">
+                    <button id="test-next"
+                        class="p-3 rounded-full border border-primary/30 text-primary hover:bg-primary hover:text-on-primary transition-all duration-300"
+                        aria-label="Siguiente">
                         <b class="material-symbols-outlined">chevron_right</b>
                     </button>
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Testimonial 1 -->
-                <div class="bg-surface-container p-8 rounded-2xl relative">
-                    <b
-                        class="material-symbols-outlined text-6xl text-primary/20 absolute top-4 right-8">format_quote</b>
-                    <div class="flex items-center gap-4 mb-6">
-                        <img class="w-16 h-16 rounded-full object-cover grayscale hover:grayscale-0 transition-all"
-                            data-alt="Professional portrait of a male real estate agent in a suit with a confident expression"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdwlbs9n2ppZMWycfLCUKSxUq6_wMBN93Gu264s8bcfoODMTo9ejJ_5yktjrK7fO8KJoC-83dy_WuhPTs7ZIRlaV5mBoXWADKmnKVF1kZV66jSDm2CfPF9Mrw1sDzqYQn6Ih88Sy0Bvvu86r_5PhBEXOQvKPy-ysNSweCjWInr-1LGi1dmC4Hg_VhLmoIKgAL9OXWqW51is84pM242mblgNu-1t5f84ZUkpprj9JelN0ToDlID3wHcYuHagCaUqqT6wzqnOKJypsU" />
-                        <div>
-                            <div class="flex items-center gap-2">
-                                <h4 class="font-bold text-white">Carlos Mendoza</h4>
-                                <b class="material-symbols-outlined text-primary text-sm"
-                                    style="font-variation-settings: 'FILL' 1;">verified</b>
+
+            <!-- Slider -->
+            <div class="overflow-hidden" id="test-container">
+                <div class="flex gap-8 transition-transform duration-600 ease-in-out" id="test-track"
+                    style="will-change: transform;">
+
+                    <!-- Testimonio 1: Edilson de Freitas -->
+                    <div class="bg-surface-container p-8 rounded-2xl relative flex-shrink-0 w-full md:w-[calc(33.333%-1.333rem)] flex flex-col">
+                        <b class="material-symbols-outlined text-6xl text-primary/15 absolute top-4 right-8" style="font-variation-settings:'FILL' 1;">format_quote</b>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0">
+                                <span class="font-headline font-extrabold text-primary text-lg">ED</span>
                             </div>
-                            <p class="text-xs text-on-surface-variant uppercase tracking-widest">Senior Advisor</p>
-                        </div>
-                    </div>
-                    <p class="text-on-surface-variant leading-relaxed italic">"Desde que me uní a Liberty Home, mi
-                        facturación ha crecido un 40%. El apoyo del sistema Century 21 es simplemente inigualable en
-                        Valencia."</p>
-                </div>
-                <!-- Testimonial 2 -->
-                <div class="bg-surface-container p-8 rounded-2xl relative">
-                    <b
-                        class="material-symbols-outlined text-6xl text-primary/20 absolute top-4 right-8">format_quote</b>
-                    <div class="flex items-center gap-4 mb-6">
-                        <img class="w-16 h-16 rounded-full object-cover grayscale hover:grayscale-0 transition-all"
-                            data-alt="Close up of a professional woman smiling in a modern office setting"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSvI05J9i_g7-17DGN09JoNkBTxy8NCFhrsYlNblcXUUO4kRIDVL8_QDAikvd2_-j933IACCb2a1ZVIbR3-vUGgVsEe8d9JYysMivpo11WkHrOrdpJU3d8VXsRq5STsC7eD4OQmRBhrIrkMbqSt5u6L75wdIxCdbLx9ojQG0WRVDUSJiBNM1L7vytzjKpOKTD8TD5FSPnJ3uKusgLTJuokiiXhKXGjEb5xixqaZFUAvaHe6BFi0MmmxiN9_VJyAkek4-2FKud9MdE" />
-                        <div>
-                            <div class="flex items-center gap-2">
-                                <h4 class="font-bold text-white">Elena Garrido</h4>
-                                <b class="material-symbols-outlined text-primary text-sm"
-                                    style="font-variation-settings: 'FILL' 1;">verified</b>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h4 class="font-bold text-white">Edilson de Freitas</h4>
+                                    <b class="material-symbols-outlined text-primary text-sm" style="font-variation-settings:'FILL' 1;">verified</b>
+                                </div>
+                                <p class="text-xs text-primary/80 uppercase tracking-widest font-bold">Master Producer</p>
                             </div>
-                            <p class="text-xs text-on-surface-variant uppercase tracking-widest">Luxury Expert</p>
                         </div>
+                        <div class="mb-4">
+                            <span class="inline-block bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">+200.000€ / año · 4 años</span>
+                        </div>
+                        <p class="text-on-surface-variant leading-relaxed italic flex-grow">
+                            "Empecé desde cero, sin cartera ni experiencia en el sector. Hoy, después de 4 años en Liberty Home, he construido un negocio que supera los 200.000€ anuales. Aquí entendí que no se trata de vender más... se trata de construir un sistema que te haga crecer de forma constante."
+                        </p>
                     </div>
-                    <p class="text-on-surface-variant leading-relaxed italic">"En Liberty Home no somos solo agentes,
-                        somos consultores de estilo de vida. La marca transmite confianza inmediata a los clientes."</p>
-                </div>
-                <!-- Testimonial 3 -->
-                <div class="bg-surface-container p-8 rounded-2xl relative">
-                    <b
-                        class="material-symbols-outlined text-6xl text-primary/20 absolute top-4 right-8">format_quote</b>
-                    <div class="flex items-center gap-4 mb-6">
-                        <img class="w-16 h-16 rounded-full object-cover grayscale hover:grayscale-0 transition-all"
-                            data-alt="Portrait of a young male professional agent looking optimistic in a bright interior"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQcMX1tYS0VnQzgReQd3Zy6fqGZpkro-Jiz3tkjU_apZPigcYfDVTfoAAWEhsqkDSZY3UXopWRSCd3zRLQqaoORZzsnryJ5H2rKncQqNg_Bw3l6uk0bZcAHJe5Lbqfq3SM1RjbM4xrfHrxbdEdzLIavyamEY3GIrCf2T_A8jEk0cZrE-KuvTC9YXF05_orYCFDQjT5EHTYx5biWmIQRRf4IQP2hRN0WqRi0gn4fpCjlcbXNMhQmvZWP3gpQjjoYkx5SVYOcw8ki2s" />
-                        <div>
-                            <div class="flex items-center gap-2">
-                                <h4 class="font-bold text-white">David Sancho</h4>
-                                <b class="material-symbols-outlined text-primary text-sm"
-                                    style="font-variation-settings: 'FILL' 1;">verified</b>
+
+                    <!-- Testimonio 2: Adela Parrilla -->
+                    <div class="bg-surface-container p-8 rounded-2xl relative flex-shrink-0 w-full md:w-[calc(33.333%-1.333rem)] flex flex-col">
+                        <b class="material-symbols-outlined text-6xl text-primary/15 absolute top-4 right-8" style="font-variation-settings:'FILL' 1;">format_quote</b>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0">
+                                <span class="font-headline font-extrabold text-primary text-lg">AP</span>
                             </div>
-                            <p class="text-xs text-on-surface-variant uppercase tracking-widest">New Talent</p>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h4 class="font-bold text-white">Adela Parrilla</h4>
+                                    <b class="material-symbols-outlined text-primary text-sm" style="font-variation-settings:'FILL' 1;">verified</b>
+                                </div>
+                                <p class="text-xs text-primary/80 uppercase tracking-widest font-bold">Master Producer</p>
+                            </div>
                         </div>
+                        <div class="mb-4">
+                            <span class="inline-block bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">+300.000€ / año · 3 años</span>
+                        </div>
+                        <p class="text-on-surface-variant leading-relaxed italic flex-grow">
+                            "Llegué sin experiencia y con muchas dudas. 3 años después, lidero un negocio con más de 300.000€ de facturación anual. La diferencia no la marca el talento, la marca el método, el entorno y la exigencia. Y aquí lo tienes todo."
+                        </p>
                     </div>
-                    <p class="text-on-surface-variant leading-relaxed italic">"Empezar de cero fue fácil gracias al
-                        mentoring de los directores. La formación continua es el pilar de nuestro éxito diario."</p>
-                </div>
-            </div>
+
+                    <!-- Testimonio 3: Inguer Vidal -->
+                    <div class="bg-surface-container p-8 rounded-2xl relative flex-shrink-0 w-full md:w-[calc(33.333%-1.333rem)] flex flex-col">
+                        <b class="material-symbols-outlined text-6xl text-primary/15 absolute top-4 right-8" style="font-variation-settings:'FILL' 1;">format_quote</b>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0">
+                                <span class="font-headline font-extrabold text-primary text-lg">IV</span>
+                            </div>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h4 class="font-bold text-white">Inguer Vidal</h4>
+                                    <b class="material-symbols-outlined text-primary text-sm" style="font-variation-settings:'FILL' 1;">verified</b>
+                                </div>
+                                <p class="text-xs text-primary/80 uppercase tracking-widest font-bold">Top Producer</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <span class="inline-block bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">100.000€+ / año · objetivo 200K</span>
+                        </div>
+                        <p class="text-on-surface-variant leading-relaxed italic flex-grow">
+                            "Empecé desde cero y hoy mantengo una media de 100.000€ anuales, con un objetivo claro: superar los 200.000€ este año. Cuando entiendes el sistema, el crecimiento deja de ser una incógnita y pasa a ser una consecuencia."
+                        </p>
+                    </div>
+
+                    <!-- Testimonio 4: Manuel Corella -->
+                    <div class="bg-surface-container p-8 rounded-2xl relative flex-shrink-0 w-full md:w-[calc(33.333%-1.333rem)] flex flex-col">
+                        <b class="material-symbols-outlined text-6xl text-primary/15 absolute top-4 right-8" style="font-variation-settings:'FILL' 1;">format_quote</b>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0">
+                                <span class="font-headline font-extrabold text-primary text-lg">MC</span>
+                            </div>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h4 class="font-bold text-white">Manuel Corella</h4>
+                                    <b class="material-symbols-outlined text-primary text-sm" style="font-variation-settings:'FILL' 1;">verified</b>
+                                </div>
+                                <p class="text-xs text-primary/80 uppercase tracking-widest font-bold">Team Leader · Top Producer</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <span class="inline-block bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">20+ agentes · 5 años</span>
+                        </div>
+                        <p class="text-on-surface-variant leading-relaxed italic flex-grow">
+                            "No solo construí mi propio negocio, construí un equipo. Después de 5 años en Liberty Home, he desarrollado una estructura de más de 20 agentes productivos. Aquí no solo creces tú. Puedes escalar y multiplicar tu impacto."
+                        </p>
+                    </div>
+
+                    <!-- Testimonio 5: Emilio Quevedo -->
+                    <div class="bg-surface-container p-8 rounded-2xl relative flex-shrink-0 w-full md:w-[calc(33.333%-1.333rem)] flex flex-col">
+                        <b class="material-symbols-outlined text-6xl text-primary/15 absolute top-4 right-8" style="font-variation-settings:'FILL' 1;">format_quote</b>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0">
+                                <span class="font-headline font-extrabold text-primary text-lg">EQ</span>
+                            </div>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h4 class="font-bold text-white">Emilio Quevedo</h4>
+                                    <b class="material-symbols-outlined text-primary text-sm" style="font-variation-settings:'FILL' 1;">verified</b>
+                                </div>
+                                <p class="text-xs text-primary/80 uppercase tracking-widest font-bold">Top Producer</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <span class="inline-block bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">100.000€+ / año · 3 años · ex-automoción</span>
+                        </div>
+                        <p class="text-on-surface-variant leading-relaxed italic flex-grow">
+                            "Vengo del sector automoción, sin experiencia inmobiliaria. En Liberty Home construí mi negocio desde cero y llevo más de 3 años superando los 100.000€ anuales. Cuando hay método, el origen deja de importar."
+                        </p>
+                    </div>
+
+                    <!-- Testimonio 6: Daria Bashta -->
+                    <div class="bg-surface-container p-8 rounded-2xl relative flex-shrink-0 w-full md:w-[calc(33.333%-1.333rem)] flex flex-col">
+                        <b class="material-symbols-outlined text-6xl text-primary/15 absolute top-4 right-8" style="font-variation-settings:'FILL' 1;">format_quote</b>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center flex-shrink-0">
+                                <span class="font-headline font-extrabold text-primary text-lg">DB</span>
+                            </div>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h4 class="font-bold text-white">Daria Bashta</h4>
+                                    <b class="material-symbols-outlined text-primary text-sm" style="font-variation-settings:'FILL' 1;">verified</b>
+                                </div>
+                                <p class="text-xs text-primary/80 uppercase tracking-widest font-bold">Top Producer</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <span class="inline-block bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">100.000€+ / año · ex-profesora</span>
+                        </div>
+                        <p class="text-on-surface-variant leading-relaxed italic flex-grow">
+                            "Era profesora de inglés. Sin experiencia en ventas inmobiliarias. Hoy soy Top Producer con más de 100.000€ de facturación. Lo que cambia el resultado no es de dónde vienes, es el sistema que decides seguir."
+                        </p>
+                    </div>
+
+                </div><!-- end test-track -->
+            </div><!-- end overflow-hidden -->
+
+            <!-- Dot indicators -->
+            <div class="flex justify-center gap-2 mt-8" id="test-dots"></div>
         </section>
+
+        <script>
+            (function () {
+                const track = document.getElementById('test-track');
+                const container = document.getElementById('test-container');
+                const prevBtn = document.getElementById('test-prev');
+                const nextBtn = document.getElementById('test-next');
+                const dotsEl = document.getElementById('test-dots');
+                const cards = track.querySelectorAll(':scope > div');
+                const total = cards.length;
+
+                function getVisible() {
+                    return window.innerWidth >= 768 ? 3 : 1;
+                }
+
+                let current = 0;
+                let visible = getVisible();
+                let maxIndex = Math.max(0, total - visible);
+
+                // Build dots
+                function buildDots() {
+                    visible = getVisible();
+                    maxIndex = Math.max(0, total - visible);
+                    dotsEl.innerHTML = '';
+                    for (let i = 0; i <= maxIndex; i++) {
+                        const d = document.createElement('button');
+                        d.className = 'h-1 rounded-full transition-all duration-300 ' + (i === current ? 'w-8 bg-primary' : 'w-3 bg-white/20');
+                        d.setAttribute('aria-label', 'Slide ' + (i + 1));
+                        d.addEventListener('click', () => goTo(i));
+                        dotsEl.appendChild(d);
+                    }
+                }
+
+                function updateDots() {
+                    const dots = dotsEl.querySelectorAll('button');
+                    dots.forEach((d, i) => {
+                        d.className = 'h-1 rounded-full transition-all duration-300 ' + (i === current ? 'w-8 bg-primary' : 'w-3 bg-white/20');
+                    });
+                }
+
+                function goTo(index) {
+                    current = Math.max(0, Math.min(index, maxIndex));
+                    const cardWidth = cards[0].getBoundingClientRect().width;
+                    const gap = 32; // gap-8 = 2rem = 32px
+                    track.style.transform = `translateX(-${current * (cardWidth + gap)}px)`;
+                    updateDots();
+                }
+
+                prevBtn.addEventListener('click', () => goTo(current - 1));
+                nextBtn.addEventListener('click', () => goTo(current + 1));
+
+                // Touch swipe
+                let startX = 0;
+                container.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; }, { passive: true });
+                container.addEventListener('touchend', (e) => {
+                    const diff = startX - e.changedTouches[0].clientX;
+                    if (Math.abs(diff) > 50) goTo(current + (diff > 0 ? 1 : -1));
+                }, { passive: true });
+
+                // Recalc on resize
+                window.addEventListener('resize', () => {
+                    visible = getVisible();
+                    maxIndex = Math.max(0, total - visible);
+                    current = Math.min(current, maxIndex);
+                    buildDots();
+                    goTo(current);
+                });
+
+                buildDots();
+                goTo(0);
+            })();
+        </script>
     </main>
     <!-- Footer Section -->
     <footer class="w-full py-16 flex flex-col items-center justify-center bg-background border-t border-white/5">
